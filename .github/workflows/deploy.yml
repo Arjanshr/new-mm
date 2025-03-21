@@ -17,5 +17,5 @@ jobs:
           server: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./ 
-          remote-dir: /home2/mobilemandu/new-test.mobilemandu.com  # Specify your directory here
+          local-dir: ./  # Ensure it's the correct root of your repo
+          remote-dir: /home2/mobilemandu/new-test.mobilemandu.com/  # Ensure it points directly to the correct folder
