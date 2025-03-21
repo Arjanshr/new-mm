@@ -17,4 +17,4 @@ jobs:
           server: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./  # Deploys everything in the repository
+          local-dir: /home2/mobilemandu/new-test.mobilemandu.com  # Deploys everything in the repository
