@@ -1,0 +1,22 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /checkout/
+Disallow: /cart/
+Disallow: /account/
+Disallow: /login/
+Disallow: /register/
+Disallow: /thank-you/
+Disallow: /order-confirmation/
+Disallow: /wishlist/
+Disallow: /search/
+Disallow: /terms-of-service/
+Disallow: /privacy-policy/
+Disallow: /returns-policy/
+
+# Allow search engines to index product pages, categories, and the home page
+Allow: /product/
+Allow: /category/
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.mobilemandu.com/sitemap.xml
