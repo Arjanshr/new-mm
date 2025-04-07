@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST='{"pages\\\\login\\\\index.tsx -> reactjs-social-login":{"id":2028,"files":["static/chunks/2028.2dcd8021398d4306.js"]}}';
